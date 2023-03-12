@@ -17,12 +17,27 @@
     margin: 1.25rem 0 0 0;
 }
 
+form
+{
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+}
+
 input
 {
     padding: 1rem;
     font-size: 1.25rem;
     font-weight: bold;
     font-family: sans-serif;
-    border: 2px solid;
+    border: 2px solid ;
 }
 
+button
+{
+    cursor: pointer;
+    padding: 1.25rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    background-color: #FFF;
+}

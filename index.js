@@ -19,9 +19,9 @@ function cepChange(text)
                 {
                     cepText.innerHTML = `CEP: ${cep.cep}`
                     logradouroText.innerHTML = `LOGRADOURO: ${cep.logradouro}`
-                    localidadeText.innerHTML = `CEP: ${cep.localidade}`
-                    ufText.innerHTML = `CEP: ${cep.uf}`
-                    dddText.innerHTML = `CEP: (${cep.ddd})`
+                    localidadeText.innerHTML = `CIDADE: ${cep.localidade}`
+                    ufText.innerHTML = `UF: ${cep.uf}`
+                    dddText.innerHTML = `DDD: (${cep.ddd})`
                 })
         })
 }
