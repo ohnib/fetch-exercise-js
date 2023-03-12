@@ -1,0 +1,28 @@
+.cep-container
+{
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin: 2.25rem 0 0 0;
+}
+
+.label-cep
+{
+    display: flex;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin: 1.25rem 0 0 0;
+}
+
+input
+{
+    padding: 1rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    border: 2px solid;
+}
+
